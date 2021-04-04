@@ -8,7 +8,7 @@ async function getData(){
 
     console.log()
 
-    await fetch(`http://127.0.0.1:3030/api/currency/${first}&${second}`)
+    await fetch(`http://139.177.183.215:3030/api/currency/${first}&${second}`)
       .then(response => response.json())
 	.then(data => {
 	    pricen = data.price*value
